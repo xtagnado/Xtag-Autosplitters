@@ -1,5 +1,5 @@
 state("ares")				{}	// Auto-Split made by Xtagnado (Discord: Xtagnado#0430)	
-state("bizhawk.multiclient"){}	// Feel free to use, share and change by your own purposes
+state("bizhawk.multiclient")		{}	// Feel free to use, share and change by your own purposes
 state("bsnes")				{}	// Just leave the credits to future questions and updates
 state("emuhawk")			{}	// I suggest you to play in BizHawk 2.8 x64 with Snes9x Core
 state("higan")				{}	
@@ -9,7 +9,7 @@ state("snes9x-x64")			{}
 init {
     var states = new Dictionary<int, long> {
 		{	10330112	,	0x789414		},	// snes9x 1.52-rr
-        {	7729152		,	0x890EE4		},	// snes9x 1.54-rr
+		{	7729152		,	0x890EE4		},	// snes9x 1.54-rr
 		{	5914624		,	0x6EFBA4		},	// snes9x 1.53
 		{	6909952		,	0x140405EC8		},	// snes9x 1.53 (x64)
 		{	6447104		,	0x7410D4		},	// snes9x 1.54/1.54.1
