@@ -1,5 +1,5 @@
 state("ares")				{}	// Auto-Split made by Xtagnado (Discord: Xtagnado#0430)	
-state("bizhawk.multiclient"){}	// Feel free to use, share and change by your own purposes
+state("bizhawk.multiclient")		{}	// Feel free to use, share and change by your own purposes
 state("bsnes")				{}	// Just leave the credits to future questions and updates
 state("emuhawk")			{}	// I suggest you to play in BizHawk 2.8 x64 with Snes9x Core
 state("higan")				{}	
@@ -26,25 +26,25 @@ init {
 		{	472035328	,	0x7FF737BCFCE8	},	// Ares v131
 		{	472420352	,	0x7FF70DE3CA40	},	// Ares v132
 		{	474517504	,	0x7FF6BA012108	},	// Ares v133
-		{	5914624		,	0x6EFBA4		},	// snes9x-1.53-win32
-		{	6909952		,	0x140405EC8		},	// snes9x-1.53-win32-x64
-		{	6447104		,	0x7410D4		},	// snes9x-1.54-win32 & snes9x-1.54.1-win32
-		{	7946240		,	0x1404DAF18		},	// snes9x-1.54-win32-x64 & snes9x-1.54.1-win32-x64
-		{	6602752		,	0x762874		},	// snes9x-1.55-win32
-		{	8355840		,	0x1405BFDB8		},	// snes9x-1.55-win32-x64
-		{	9003008		,	0x1405D8C68		},	// snes9x-1.56-win32-x64
-		{	9015296		,	0x1405D9298		},	// snes9x-1.56.1-win32-ddraw x64 & snes9x-1.56.2-win32-x64
-		{	8945664		,	0x1405C80A8		},	// snes9x-1.56.1-win32-x64
-		{	6991872		,	0x7A6EE4		},	// snes9x-1.57-win32
-		{	9048064		,	0x1405ACC58		},	// snes9x-1.57-win32-x64
-		{	7000064		,	0x7A7EE4		},	// snes9x-1.58-win32
-		{	9060352		,	0x1405AE848		},	// snes9x-1.58-win32-x64
-		{	8953856		,	0x975A54		},	// snes9x-1.59.2-win32
-		{	12537856	,	0x1408D86F8		},	// snes9x-1.59.2-win32-x64		
-		{	9027584		,	0x094DB54		},	// snes9x-1.60-win32
-		{	12836864	,	0x01408D8BE8	},	// snes9x-1.60-win32-x64
-		{	9646080		,	0x097EE04		},	// snes9x-rr-1.60-win32
-		{	13565952	,	0x0140925118	},	// snes9x-rr-1.60-win32-x64
+		{	5914624		,	0x0000006EFBA4	},	// snes9x-1.53-win32
+		{	6909952		,	0x000140405EC8	},	// snes9x-1.53-win32-x64
+		{	6447104		,	0x0000007410D4	},	// snes9x-1.54-win32 & snes9x-1.54.1-win32
+		{	7946240		,	0x0001404DAF18	},	// snes9x-1.54-win32-x64 & snes9x-1.54.1-win32-x64
+		{	6602752		,	0x000000762874	},	// snes9x-1.55-win32
+		{	8355840		,	0x0001405BFDB8	},	// snes9x-1.55-win32-x64
+		{	9003008		,	0x0001405D8C68	},	// snes9x-1.56-win32-x64
+		{	9015296		,	0x0001405D9298	},	// snes9x-1.56.1-win32-ddraw x64 & snes9x-1.56.2-win32-x64
+		{	8945664		,	0x0001405C80A8	},	// snes9x-1.56.1-win32-x64
+		{	6991872		,	0x0000007A6EE4	},	// snes9x-1.57-win32
+		{	9048064		,	0x0001405ACC58	},	// snes9x-1.57-win32-x64
+		{	7000064		,	0x0000007A7EE4	},	// snes9x-1.58-win32
+		{	9060352		,	0x0001405AE848	},	// snes9x-1.58-win32-x64
+		{	8953856		,	0x000000975A54	},	// snes9x-1.59.2-win32
+		{	12537856	,	0x0001408D86F8	},	// snes9x-1.59.2-win32-x64		
+		{	9027584		,	0x00000094DB54	},	// snes9x-1.60-win32
+		{	12836864	,	0x0001408D8BE8	},	// snes9x-1.60-win32-x64
+		{	9646080		,	0x00000097EE04	},	// snes9x-rr-1.60-win32
+		{	13565952	,	0x000140925118	},	// snes9x-rr-1.60-win32-x64
 	};
     long memoryOffset;
     if (states.TryGetValue(modules.First().ModuleMemorySize, out memoryOffset)) {
